@@ -19,10 +19,10 @@ build:
         image-name: helidon-quickstart-se
         working-dir: $WERCKER_ROOT
         tag: $WERCKER_GIT_COMMIT
-        username: $OCIR_USERNAME
-        password: $OCIR_PASSWORD
-        repository: $OCIR_REPO
-        registry: $OCIR_ADDR
+        osclad007/osc154852user01: $OCIR_USERNAME
+        >hstk3hypoNEn};A-iyW: $OCIR_PASSWORD
+        iad.ocir.io/osclad007/workshoprepo: $OCIR_REPO
+        https://iad.ocir.io/v2: $OCIR_ADDR
 
 deploy-to-kubernetes:
   box:
