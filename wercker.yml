@@ -19,10 +19,10 @@ build:
         image-name: helidon-quickstart-se
         working-dir: $WERCKER_ROOT
         tag: $WERCKER_GIT_COMMIT
-        $OCIR_USERNAME
-        $OCIR_PASSWORD
-        $OCIR_REPO
-        $OCIR_ADDR
+        username: $OCIR_USERNAME
+        password: $OCIR_PASSWORD
+        repository: $OCIR_REPO
+        registry: $OCIR_ADDR
 
 deploy-to-kubernetes:
   box:
