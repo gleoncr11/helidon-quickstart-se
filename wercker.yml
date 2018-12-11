@@ -19,7 +19,7 @@ build:
         image-name: helidon-quickstart-se
         working-dir: $WERCKER_ROOT
         tag: $WERCKER_GIT_COMMIT
-        osclad007/osc154852user01: $OCIR_USERNAME
+        osclad007/osc154852user07: $OCIR_USERNAME
         >hstk3hypoNEn};A-iyW: $OCIR_PASSWORD
         iad.ocir.io/osclad007/workshoprepo: $OCIR_REPO
         https://iad.ocir.io/v2: $OCIR_ADDR
